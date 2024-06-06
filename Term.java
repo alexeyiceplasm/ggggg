@@ -93,7 +93,8 @@ public class Term extends Activity {
        }
        catch (Throwable th) {
        throw new RuntimeException(th);
-       Log.d("evil", "Catch!!!");
+
+Log.d("evil", "Catch!!!");
 }
     }
 }
